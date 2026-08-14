@@ -1,0 +1,25 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyc
+.venv/
+venv/
+.vscode/
+.idea/
+
+# TensorRT / model files
+*.engine
+*.onnx
+*.pt
+*.pth
+
+# Outputs
+output/*
+!output/.gitkeep
+
+# Logs
+*.log
+
+# OS
+Thumbs.db
+.DS_Store
